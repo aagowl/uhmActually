@@ -1,0 +1,14 @@
+{
+  "name": "uhm-actually",
+  "version": "1.0.0",
+  "description": "A discord bot that will endlessly showcase its own knowledge and enable other to do the same... even when you don't want to",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aagowl",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.52.0"
+  }
+}
