@@ -1,4 +1,4 @@
-// Registers and update slash commands
+/******* Registers and update slash commands *******/
 
 const { REST, Routes } = require('discord.js');
 const { clientId, guildId, token } = require('./config.json');

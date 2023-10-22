@@ -1,3 +1,5 @@
+/******* Multiple Choice Trivia *******/
+
 const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
