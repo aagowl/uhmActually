@@ -7,7 +7,8 @@ hackathon I have ever been to, and thus the first hackathon project I've
 ever made!
 
 This project used the resources given in the discord.js documentation and guide
-as well as the wikimedia api documentation.
+as well as the wikimedia api documentation. It also uses data from Open Trivia Database.
+https://opentdb.com/api_config.php 
 https://api.wikimedia.org/wiki/Learn#Wikimedia_API_documentation
 https://old.discordjs.dev/#/docs/discord.js/main/general/welcome 
 
