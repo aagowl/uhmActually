@@ -35,15 +35,16 @@ module.exports = {
         const responseFile = await response.json();
         // probably more than a horrible ineffiencent way to do anything but...
         const pages = responseFile.pages;
-        const titles = [];
-        const descriptions = [];
+        let message = `# Results for the term "${query}":`;
         
         // loops through results to list the title and description of the pages
         for (const result of pages){
-            titles.push(pages[result].title);
-            descriptions.push(pages[result].description);
+
+            const title = result.title;
+            const description = result.description;
+            message += `\n**${title}**: ${description}`;
         }
 
-        await interaction.reply(`# Results for ${query}:\n`);
+        await interaction.reply(message);
     },
 }
