@@ -2,11 +2,10 @@ const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('ping')
-        .setDescription('for every ping there shall be a pong'),
+        .setName('mcq_trivia')
+        .setDescription('test your knowledge with this crazy quizzes'),
 
     async execute(interaction) {
         await interaction.reply('Pong!');
     },
 }
-
